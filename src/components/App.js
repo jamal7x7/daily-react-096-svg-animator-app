@@ -3,7 +3,7 @@ import '../styles/App.sass'
 
 const Header = () => (
   <header className='App-header'>
-    <h1 className='App-title'> Javascript News App </h1>
+    <h1 className='App-title'> SVG Animator App </h1>
   </header>
 )
 
@@ -25,7 +25,7 @@ const Side = () => (
 
 
 
-class  JavascriptNewsApp extends Component {
+class  SVGAnimatorApp extends Component {
   
   state = {
     
@@ -56,7 +56,7 @@ class  JavascriptNewsApp extends Component {
 const App = (props) => (
   <div className='App'>
     <Header />
-    < JavascriptNewsApp />
+    < SVGAnimatorApp />
 
   </div>
 )
